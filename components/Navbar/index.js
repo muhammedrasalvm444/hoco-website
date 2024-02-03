@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoIosMenu } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
-import { StyledButton } from "./StyledButton";
+import { StyledButton } from "../StyledButton";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import SearchBox from "../SearchBox";
 
@@ -18,8 +18,8 @@ const Navbar = () => {
   console.log("mdmd", isMenuOpen);
 
   return (
-    <nav className="fixed top-0 left-0 z-10 w-full bg-white shadow-md">
-      <div className="items-center justify-between px-12 py-4 bg-white lg:flex">
+    <nav className="fixed top-0 left-0 z-50 w-full shadow-md bg-textWhite">
+      <div className="items-center justify-between px-6 py-4 bg-white lg:flex">
         <div className="flex items-center relative w-24 md:w-[136px] lg:w-[136px] h-12 lg:h-[36px] md:h-[36px]  cursor-pointer hover:transition-transform duration-700 ease-out transform hover:scale-110">
           <Image
             alt="11d logo"

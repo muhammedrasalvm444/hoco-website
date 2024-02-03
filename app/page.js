@@ -1,11 +1,11 @@
 import BannerSection from "@/components/BannerSection";
-import Navbar from "@/components/Navbar";
+import HomeShootingSection from "@/components/HomeShootingSection";
 
 export default function Home() {
   return (
     <div>
-      {/* <Navbar /> */}
-      <BannerSection />{" "}
+      <BannerSection />
+      <HomeShootingSection />
     </div>
   );
 }
