@@ -10,16 +10,24 @@ module.exports = {
   ],
 
   theme: {
-    colors: {
-      textWhite: " #ffffff",
-      blueColor: " #36348E",
-      primaryColor: "#B7D8EF",
-      yellowColor: "#FFC53A",
-      lightBlueColor: "#CDD4FB",
-      formBlueColor: "#ffffff7f",
-      formBgColor: "#ffffff66",
+    extend: {
+      fontFamily: {
+        inter: ["Inter, sans-serif"],
+      },
+      colors: {
+        textWhite: " #ffffff",
+        blueColor: " #36348E",
+        primaryColor: "#B7D8EF",
+        yellowColor: "#FFC53A",
+        lightBlueColor: "#CDD4FB",
+        formBlueColor: "#ffffff7f",
+        formBgColor: "#ffffff66",
+        grayColor: "#646464",
+        blackColor: "#000000",
+        bgLightColor: "#f9f9fc",
+        orangeColor: "#f66a1d",
+      },
     },
-    extend: {},
   },
   plugins: [],
 };
