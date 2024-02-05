@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const ProspectiveSection = () => {
   return (
     <div>
-      <div className=" relative flex items-center justify-center pr-[6rem] pl-[13rem] py-20 mx-32 ml-[28rem] bg-bgLightColor">
+      <div className=" relative flex items-center justify-center pr-[6rem]  pl-[1rem] md:pl-[13rem] py-20  mx-2 md:mx-32  ml-3 md:ml-[28rem] bg-bgLightColor">
         <div className="flex flex-col">
           <div className="flex flex-col gap-2 text-4xl font-extrabold text-blueColor ">
             <h1>Prospective Parent</h1>
@@ -40,7 +40,7 @@ const ProspectiveSection = () => {
             </div>
           </div>
         </div>
-        <div className="absolute left-[-327px] top-[88px] ">
+        <div className=" md:absolute left-[-327px] top-[88px] ">
           <Image
             src={"/images/information.png"}
             alt={"image"}

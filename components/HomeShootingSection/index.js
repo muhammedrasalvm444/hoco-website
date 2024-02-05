@@ -15,7 +15,7 @@ const HomeShootingSection = () => {
             </h1>
             <h1>With Hoco</h1>
           </div>
-          <div className="flex gap-2 my-6">
+          <div className="gap-2 my-6 md:flex">
             <div className="mb-4 ">
               <Image
                 src={"/images/about-1.png"}
@@ -27,7 +27,7 @@ const HomeShootingSection = () => {
                 className="rounded-md"
               />
             </div>
-            <div className="mx-8 text-base font-normal text-grayColor">
+            <div className="mx-2 text-base font-normal  md:mx-8 text-grayColor">
               <p>
                 Founded in 2004, Hoco is the world’s most experienced Online
                 home study &
