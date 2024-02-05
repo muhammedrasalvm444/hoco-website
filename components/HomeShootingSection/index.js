@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { StyledButton } from "../StyledButton";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 

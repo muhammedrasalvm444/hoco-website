@@ -51,52 +51,6 @@ const ContactForm = () => {
           Submit
         </Button>
       </form>
-      {/* <div className="flex flex-col items-center justify-center p-4 rounded bg-lightBlueColor">
-        <h1>Quick Contact</h1>
-        <TextField
-          id="outlined-basic"
-          label="Email adress"
-          variant="outlined"
-          sx={{
-            "& label.Mui-focused": {
-              color: "gray",
-            },
-            "& .MuiInput-underline:after": {
-              borderBottomColor: "lightblue",
-            },
-            "& .MuiOutlinedInput-root": {
-              "& fieldset": {
-                borderColor: "lightblue",
-              },
-              "&:hover fieldset": {
-                borderColor: "lightblue",
-              },
-              "&.Mui-focused fieldset": {
-                borderColor: "lightblue",
-              },
-            },
-          }}
-        />
-        <TextareaAutosize
-          aria-label="minimum height"
-          minRows={3}
-          placeholder="Minimum 3 rows"
-          variant="outlined"
-          sx={{
-            backgroundColor: "lightblue",
-            color: "gray",
-            border: "1px solid lightblue",
-            borderRadius: "4px",
-            padding: "8px",
-            width: "100%",
-            resize: "none",
-            "&:focus": {
-              borderColor: "lightblue",
-            },
-          }}
-        />
-        <StyledButton text={"Contact Now"} />
-      </div> */}
     </div>
   );
 };

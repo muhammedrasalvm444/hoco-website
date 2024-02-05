@@ -1,28 +1,49 @@
-// components/SearchBox.js
-
-import React from "react";
-import InputAdornment from "@mui/material/InputAdornment";
 import TextField from "@mui/material/TextField";
+import InputAdornment from "@mui/material/InputAdornment";
 import SearchIcon from "@mui/icons-material/Search";
 
-const SearchBox = () => {
+const SearchTextField = () => {
   return (
     <TextField
       placeholder="Search For..."
       variant="filled"
       fullWidth
+      sx={{
+        "& input": {
+          border: "none",
+          color: "gray",
+          fontSize: "1rem", // Set the default font size
+        },
+        "& .MuiFilledInput-root": {
+          backgroundColor: "#f9f9fc",
+        },
+        "& .MuiFilledInput-underline:after": {
+          borderBottom: "none",
+        },
+        "& .MuiInputLabel-filled": {
+          transform: "translate(12px, 14px) scale(1)",
+          color: "white",
+          fontSize: "1rem", // Set the default font size for the label
+        },
+        // Responsive styles
+        "@media (max-width: 600px)": {
+          "& input": {
+            fontSize: "0.8rem", // Set a smaller font size for smaller screens
+          },
+          "& .MuiInputLabel-filled": {
+            fontSize: "0.8rem",
+          },
+        },
+      }}
       InputProps={{
-        style: { width: "100%" }, // Ensure full width
         endAdornment: (
           <InputAdornment position="end" sx={{ margin: "" }}>
             <SearchIcon
               sx={{
-                fontSize: "2rem", // Adjust the size as needed
-                // color: "gray", // Adjust the color as needed
-                backgroundColor: "white", // Background color of the icon
-                padding: "3px",
+                fontSize: "2rem", // Set the default icon size
+                backgroundColor: "white",
+                padding: "8px", // Adjust padding for smaller screens
                 borderRadius: "2px",
-                // Padding around the icon
               }}
             />
           </InputAdornment>
@@ -32,4 +53,4 @@ const SearchBox = () => {
   );
 };
 
-export default SearchBox;
+export default SearchTextField;
