@@ -30,7 +30,7 @@ const BannerSection = () => {
         <div className="absolute inset-0 right-0 flex items-center justify-center hidden lg:block">
           <Image
             alt="Image"
-            src="/images/banner-img-2.webp.png"
+            src="/images/banner-img-2.png"
             layout="fill"
             objectFit="contain"
             quality={100}
@@ -43,7 +43,7 @@ const BannerSection = () => {
       <div className="absolute bottom-0 left-0 w-full h-[200px] z-2 mt-5 md:mt-7 lg:mt-7">
         <Image
           alt="11d logo"
-          src="/images/banner-bottom-shape.webp.png"
+          src="/images/banner-bottom-shape.png"
           layout="fill"
           objectFit="cover"
           quality={100}
