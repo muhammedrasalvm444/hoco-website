@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex items-center w-24 md:w-[136px] lg:w-[136px] h-12 lg:h-[36px] md:h-[36px] cursor-pointer hover:transition-transform duration-700 ease-out transform hover:scale-110">
           <Image
             alt="11d logo"
-            src="/images/main-logo.svg.png"
+            src="/images/main-logo.png"
             layout="fill"
             objectFit="contain"
             quality={100}
