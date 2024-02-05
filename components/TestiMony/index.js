@@ -16,7 +16,7 @@ const TestiMony = () => {
     <div className="mx-4 my-8 md:mx-8 lg:mx-20 xl:mx-32">
       <div className="text-center">
         <h1 className="gap-2 my-2 text-2xl font-extrabold md:text-5xl text-blueColor">
-          Our Student's<span className="text-yellowColor"> Testimony</span> Is
+          Our Students<span className="text-yellowColor"> Testimony</span> Is
           Our
         </h1>
         <StyledMainH1Tag text={"Strength & Inspiration"} />
@@ -110,7 +110,6 @@ const TestiMony = () => {
         <h1 className="text-3xl font-extrabold md:text-5xl text-blueColor">
           Experienced Teachers
         </h1>
-        \
         <div className="flex flex-col items-center mt-8 md:items-start">
           <div className="mb-4 md:mb-0 md:mr-8">
             <Image
@@ -125,7 +124,6 @@ const TestiMony = () => {
           <h1 className="mt-4 text-xl font-bold md:text-2xl text-blueColor">
             Hocococs
           </h1>
-          <div className=""> </div>
         </div>
       </div>
     </div>

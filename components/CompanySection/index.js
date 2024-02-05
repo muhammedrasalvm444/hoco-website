@@ -28,7 +28,10 @@ const CompanySection = () => {
       <div>
         <div className="flex gap-2 my-5">
           {icons.map((icon, index) => (
-            <div className="flex items-center justify-center px-2 py-1 bg-white">
+            <div
+              className="flex items-center justify-center px-2 py-1 bg-white"
+              key={`icons-${index}`}
+            >
               <Image
                 key={index}
                 src={icon}

@@ -94,8 +94,11 @@ hover:bg-blue-600`}
         </div>
       </div>
       <div className="flex items-center justify-around max-w-full px-12 py-12 bg-blueColor">
-        {classes.map((item) => (
-          <div className="flex flex-col items-center justify-center ">
+        {classes.map((item, index) => (
+          <div
+            className="flex flex-col items-center justify-center "
+            key={index}
+          >
             <h3 className="mb-2 text-lg font-bold text-white ">
               {item?.title}
             </h3>
