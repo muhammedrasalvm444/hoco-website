@@ -18,7 +18,7 @@ const HomeShootingSection = () => {
           <div className="flex gap-2 my-6">
             <div className="mb-4 ">
               <Image
-                src={"/images/about-1.webp.png"}
+                src={"/images/about-1.png"}
                 alt={"image"}
                 // layout="fill"
                 objectFit="cover"
@@ -56,7 +56,7 @@ const HomeShootingSection = () => {
         <div className="flex flex-col gap-3">
           <div className="mb-4">
             <Image
-              src={"/images/about-1.webp.png"}
+              src={"/images/about-1.png"}
               alt={"image"}
               width={306}
               height={419}

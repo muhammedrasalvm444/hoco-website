@@ -7,28 +7,28 @@ const CoursesSection = () => {
   const items = [
     {
       id: 1,
-      imageSrc: "/images/primary.webp.png",
+      imageSrc: "/images/primary.png",
       title: "Primary schooling",
       description:
         "Hoco Primary homeschooling courses have been prepared for children aged 5 – 10. They are designed to cover Years 1 – 6.",
     },
     {
       id: 2,
-      imageSrc: "/images/lower.webp.png",
+      imageSrc: "/images/lower.png",
       title: "Lower Secondary",
       description:
         "Hoco has designed its Lower Secondary homeschooling courses (Years 7, 8 and 9 in the UK – typically ages 11-13)",
     },
     {
       id: 3,
-      imageSrc: "/images/igcse.webp.png",
+      imageSrc: "/images/igcse.png",
       title: "IGCSE Preparation",
       description:
         "The IGCSE is the world’s most popular exam qualification for 14 to 16 year olds, and the Cam bridge IGCSE is recognised worldwide.",
     },
     {
       id: 4,
-      imageSrc: "/images/cources.webp.png",
+      imageSrc: "/images/cources.png",
       title: "A levels Courses",
       description:
         "A levels are recognised by employers and universities alike as the “gold standard” of British Secondary education.",
