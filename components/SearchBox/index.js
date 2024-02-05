@@ -12,7 +12,7 @@ const SearchTextField = () => {
         "& input": {
           border: "none",
           color: "gray",
-          fontSize: "1rem", // Set the default font size
+          fontSize: "1rem",
         },
         "& .MuiFilledInput-root": {
           backgroundColor: "#f9f9fc",
@@ -40,9 +40,9 @@ const SearchTextField = () => {
           <InputAdornment position="end" sx={{ margin: "" }}>
             <SearchIcon
               sx={{
-                fontSize: "2rem", // Set the default icon size
+                fontSize: "2rem",
                 backgroundColor: "white",
-                padding: "8px", // Adjust padding for smaller screens
+                padding: "8px",
                 borderRadius: "2px",
               }}
             />
