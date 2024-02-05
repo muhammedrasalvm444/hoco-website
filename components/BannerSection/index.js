@@ -18,7 +18,7 @@ const BannerSection = () => {
         <div className="absolute right-0 flex items-center justify-center ml-2 top-32 md:right-0">
           <Image
             alt="Image"
-            src="/images/tool bar.png"
+            src="/images/tool-bar.png"
             width={30}
             height={30}
             quality={100}
