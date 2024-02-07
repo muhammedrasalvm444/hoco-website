@@ -55,7 +55,7 @@ const Navbar = () => {
           ))}
           <div className="items-center justify-center gap-2 ml-0 lg:ml-2 lg:flex md:gap-0">
             <SearchBox />
-            <div className="mt-0 sm:mt-3">
+            <div className="mt-0 sm:mt-3" style={{ display: "inline-block" }}>
               <StyledButton
                 text={"Enroll Now"}
                 bgColor={"blueColor"}
